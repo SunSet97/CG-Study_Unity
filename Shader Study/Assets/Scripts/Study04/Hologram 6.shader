@@ -4,7 +4,7 @@ Shader "Custom/Hologram6"
     {
         _BumpMap("NormalMap", 2D) = "bump" {}
         _MainTex("NoiseMap",2D)="white"{}
-        _TimeSpeed("Time Speed",Range(0.1,10)) = 1
+        _TimeSpeed("Time Speed",Range(0.1,50)) = 1
     }
         SubShader
     {
@@ -27,7 +27,6 @@ Shader "Custom/Hologram6"
             float2 uv_BumpMap;
             float3 viewDir;//���ؽ����� �ٶ󺸴� ī�޶��� ����, LightDir�� ���ؽ����� �ٶ󺸴� ������ ����
             float3 worldPos;
-            float4 color:COLOR;
         };
 
 
@@ -52,8 +51,8 @@ Shader "Custom/Hologram6"
             o.Emission = float3(0,1,0);//pow�� �� �κ��� ���̱� ���ؼ�. ������ ������ ������ ���� 3�� ����. ���� �귯���� ����� ���� �ð��� �M
             //y�ุ �ʿ��ؼ�, frac()�� ������ �Ҽ����κи� ��ȯ.
             float rim = saturate(dot(o.Normal, IN.viewDir));
-            rim = (pow(1 - rim,3)+ pow(frac(IN.worldPos.g * 3 - _Time.y*_TimeSpeed), 30))*noise;//3����
-            o.Alpha = rim;//abs(sin(_Time.y* _TimeSpeed));//��� ������ ����� ��ȭ��Ŵ, ����Ƣ�� ������ ��.
+            rim = (pow(1 - rim,3)+ pow(frac(IN.worldPos.g * 3 - _Time.y), 30))*noise;//3����
+            o.Alpha = rim*abs(sin(_Time.y* _TimeSpeed))*abs(sin(1-(_Time.y* _TimeSpeed)));//��� ������ ����� ��ȭ��Ŵ, ����Ƣ�� ������ ��.
         }
         float4 Lightingnolight(SurfaceOutput s, float3 lightDir, float atten) 
         {
