@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Study04.unity
+- path: Assets/Scenes/Personal Study/Water.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

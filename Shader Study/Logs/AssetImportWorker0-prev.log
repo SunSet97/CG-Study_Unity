@@ -15,11 +15,11 @@ D:/GitHub/CG-Study_Unity/Shader Study
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-10322
+8781
 Successfully changed project path to: D:/GitHub/CG-Study_Unity/Shader Study
 D:/GitHub/CG-Study_Unity/Shader Study
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 27.91 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.62 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.9f1 (108be757e447)
 [Subsystems] Discovering subsystems at path D:/Unity/Hub/Editor/2020.3.9f1/Data/Resources/UnitySubsystems
@@ -36,886 +36,172 @@ Initialize mono
 Mono path[0] = 'D:/Unity/Hub/Editor/2020.3.9f1/Data/Managed'
 Mono path[1] = 'D:/Unity/Hub/Editor/2020.3.9f1/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/Hub/Editor/2020.3.9f1/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56608
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/Hub/Editor/2020.3.9f1/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001610 seconds.
+Registered in 0.001622 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 22.90 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 22.50 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.032 seconds
+- Completed reload, in  1.012 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001144 seconds.
+Registered in 0.000974 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
+- Completed reload, in  0.709 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Custom/Water': fallback shader 'Legacy Shaders/Transparent/Vertexlit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1168 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.2 MB.
-System memory in use after: 89.1 MB.
+Unloading 1169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.5 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1626.
-Total: 2.888800 ms (FindLiveObjects: 0.309700 ms CreateObjectMapping: 0.028200 ms MarkObjects: 2.246400 ms  DeleteObjects: 0.302100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Study04
-  artifactKey: Guid(91b7a75e7907caa49ba0b168db4d9166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04 using Guid(91b7a75e7907caa49ba0b168db4d9166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbad5176bc8224e0b7e4443b1fc84bc3') in 0.006835 seconds
-  Import took 0.009210 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1628.
+Total: 2.020100 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.028400 ms MarkObjects: 1.601300 ms  DeleteObjects: 0.204500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.700611 seconds.
-  path: Assets/Scripts/Study04/Hologram 5.shader
-  artifactKey: Guid(324237428d4fe8b4f8012ea31ce72a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 5.shader using Guid(324237428d4fe8b4f8012ea31ce72a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716206958ba9b2161195eb1c17f8ed0b') in 0.040288 seconds
-  Import took 0.043058 seconds .
+  path: Assets/Resources/skybox.mat
+  artifactKey: Guid(21b929dfa0750c146bf690eb29655281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/skybox.mat using Guid(21b929dfa0750c146bf690eb29655281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ae08cafcb4f54f1b178faca0de9dc7f') in 0.122100 seconds
+  Import took 0.124644 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.954987 seconds.
-  path: Assets/Scripts/Study04/Hologram 5.shader
-  artifactKey: Guid(324237428d4fe8b4f8012ea31ce72a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 5.shader using Guid(324237428d4fe8b4f8012ea31ce72a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716206958ba9b2161195eb1c17f8ed0b') in 0.004372 seconds
-  Import took 0.007091 seconds .
+  Time since last request: 25.570969 seconds.
+  path: Assets/Materials/Study04/hologram 6.mat
+  artifactKey: Guid(62a4cbc60264de34cb3c8418b62fa1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study04/hologram 6.mat using Guid(62a4cbc60264de34cb3c8418b62fa1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6791bc06afe66600dd3224bf66103e86') in 0.019053 seconds
+  Import took 0.022854 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.458960 seconds.
+  Time since last request: 0.004090 seconds.
+  path: Assets/Materials/Study04/hologram 6.mat
+  artifactKey: Guid(62a4cbc60264de34cb3c8418b62fa1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study04/hologram 6.mat using Guid(62a4cbc60264de34cb3c8418b62fa1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6791bc06afe66600dd3224bf66103e86') in 0.013838 seconds
+  Import took 0.016502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 83.684310 seconds.
   path: Assets/Scripts/Study04/Hologram 6.shader
   artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc6bf5cf2633b6150e2644ed4a708ae') in 0.006187 seconds
-  Import took 0.008984 seconds .
+Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81792c632b4613d86264f21208d19237') in 0.011201 seconds
+  Import took 0.015316 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 87.075998 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db28c7799a908f987cc05b3e31e84b25') in 0.005503 seconds
-  Import took 0.008372 seconds .
+  Time since last request: 81.052522 seconds.
+  path: Assets/Materials/Study01/Study01.mat
+  artifactKey: Guid(face6240c5d0b4c4db631345e23e846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study01/Study01.mat using Guid(face6240c5d0b4c4db631345e23e846e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f892e666e35c5508c0898c3d463ebd') in 0.022111 seconds
+  Import took 0.024963 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.750809 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331b89aec584814378c98a43bae5780d') in 0.005705 seconds
-  Import took 0.009262 seconds .
+  Time since last request: 0.000219 seconds.
+  path: Assets/Materials/Study01/Study01_Mix.mat
+  artifactKey: Guid(5b781ceab1e03c0448685cb698ce16d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study01/Study01_Mix.mat using Guid(5b781ceab1e03c0448685cb698ce16d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350f8ece802467f6845e13a437f1c04f') in 0.017976 seconds
+  Import took 0.020183 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.288885 seconds.
-  path: Assets/Scripts/Study04/CustomLight04.shader
-  artifactKey: Guid(0cbce6a454ea25842a14394404213c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/CustomLight04.shader using Guid(0cbce6a454ea25842a14394404213c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22d0687f22feb2c3522a05f4954978b') in 0.004679 seconds
-  Import took 0.007230 seconds .
+  Time since last request: 0.000381 seconds.
+  path: Assets/Materials/Study01/Study01_tex.mat
+  artifactKey: Guid(cdc150613353e324d9e538dab4dbbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study01/Study01_tex.mat using Guid(cdc150613353e324d9e538dab4dbbf74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34c70d158c042da409866082cd5424c') in 0.018138 seconds
+  Import took 0.020523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 120.741178 seconds.
-  path: Assets/Materials/Study04/hologram 1.mat
-  artifactKey: Guid(00752c74bd73a0a43a28d063e79b1fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/hologram 1.mat using Guid(00752c74bd73a0a43a28d063e79b1fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b74f251573938c9aed60ef0c8e5d9c0') in 0.102029 seconds
-  Import took 0.105437 seconds .
+  Time since last request: 1.834605 seconds.
+  path: Assets/Materials/Study03/Study03 1.mat
+  artifactKey: Guid(0764fc71cc787674c9280f8500a14c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study03/Study03 1.mat using Guid(0764fc71cc787674c9280f8500a14c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966f9fb7f1c5d3aeb5e443bd6c28fcc0') in 0.029281 seconds
+  Import took 0.031675 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Materials/Study04/Rim 1.mat
-  artifactKey: Guid(a7aa5008f384f36488a284c992c81660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Rim 1.mat using Guid(a7aa5008f384f36488a284c992c81660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '006a848ffa3b8ba84fb8b3f6acf98c5a') in 0.021570 seconds
-  Import took 0.023756 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Materials/Study04/Study04 2.mat
-  artifactKey: Guid(669cb8aa6aee7da41a7362b21e48c246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 2.mat using Guid(669cb8aa6aee7da41a7362b21e48c246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1879e5a46fe8f7b113b1f2a5b8685c47') in 0.092836 seconds
-  Import took 0.094978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Materials/Study04/Study04 5.mat
-  artifactKey: Guid(939708543d962ff42b77884b3202e090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 5.mat using Guid(939708543d962ff42b77884b3202e090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18742746f083fff8409bf9c5856e1f0') in 0.020902 seconds
-  Import took 0.023875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Materials/Study04/SportyGirl 1.mat
-  artifactKey: Guid(d27845e3051a7f3429a413803c4bb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/SportyGirl 1.mat using Guid(d27845e3051a7f3429a413803c4bb077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '642360c7b585812d806b4dcec34ff6da') in 0.111536 seconds
-  Import took 0.113470 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Materials/Study04/hologram 2.mat
-  artifactKey: Guid(3ce2869842719434f916af7358780bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/hologram 2.mat using Guid(3ce2869842719434f916af7358780bed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a4b06971634808efffd8bc086b9da8') in 0.014633 seconds
-  Import took 0.016714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Materials/Study04/Study04 1.mat
-  artifactKey: Guid(26391f5082e22d644acb8e784bae3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 1.mat using Guid(26391f5082e22d644acb8e784bae3a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ba2480724b77f5b61dfafa229b4b31') in 0.013620 seconds
-  Import took 0.015767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Materials/Study04/hologram 5.mat
-  artifactKey: Guid(105de6c2f7d4f434d91e7b9e1be066f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/hologram 5.mat using Guid(105de6c2f7d4f434d91e7b9e1be066f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434b9415ae3947ca74fa1f2bb6c047de') in 0.015516 seconds
-  Import took 0.018049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000347 seconds.
-  path: Assets/Materials/Study04/hologram.mat
-  artifactKey: Guid(d9871ffb874574141bf49afae84221c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/hologram.mat using Guid(d9871ffb874574141bf49afae84221c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd26f9b4522c83b83f15310506b2771a2') in 0.014240 seconds
-  Import took 0.017378 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/Materials/Study04/hologram 4.mat
-  artifactKey: Guid(64e9a7f5442e78146837680fdd656d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/hologram 4.mat using Guid(64e9a7f5442e78146837680fdd656d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd423f67dce457f46d8269def8351a5') in 0.015109 seconds
-  Import took 0.017895 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Materials/Study04/Rim.mat
-  artifactKey: Guid(7b7f5ab34af7d6048882fcb18b5457a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Rim.mat using Guid(7b7f5ab34af7d6048882fcb18b5457a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23a00d592c6aff26ac753e9fbf2f821b') in 0.017459 seconds
-  Import took 0.019813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Materials/Study04/Study04 4.mat
-  artifactKey: Guid(4cee260952dc283418edc1014b1e8ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 4.mat using Guid(4cee260952dc283418edc1014b1e8ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b12deef36280c621371bcf7c17e77394') in 0.017805 seconds
-  Import took 0.020401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/Materials/Study04/Study04.mat
-  artifactKey: Guid(e313313b9ac6bc849a17e7f51b012e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04.mat using Guid(e313313b9ac6bc849a17e7f51b012e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83890d0e358142453ee973642d73693') in 0.017124 seconds
-  Import took 0.019542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Materials/Study04/Study04 Fresnel 2.mat
-  artifactKey: Guid(6cac7279e3a60c843aeb860a19b279e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 Fresnel 2.mat using Guid(6cac7279e3a60c843aeb860a19b279e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74490a2668caba7745ef235d5370cb0d') in 0.018581 seconds
-  Import took 0.020772 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/Materials/Study03/Study03.mat
+  artifactKey: Guid(d5bcde1f8b425e6488a4f93fa66582d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study03/Study03.mat using Guid(d5bcde1f8b425e6488a4f93fa66582d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d6cc3c34c8243cc7fb3e9148911a2c') in 0.021571 seconds
+  Import took 0.023952 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000329 seconds.
-  path: Assets/Materials/Study04/Study04 Fresnel.mat
-  artifactKey: Guid(024dcec3a919206449c74e59162b2f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 Fresnel.mat using Guid(024dcec3a919206449c74e59162b2f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a96afbb3c3c528a43a320b587de85279') in 0.014627 seconds
-  Import took 0.016724 seconds .
+  path: Assets/Materials/Study03/Study03_normalOC.mat
+  artifactKey: Guid(2b58f55ee718ff04f806eaba080330ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study03/Study03_normalOC.mat using Guid(2b58f55ee718ff04f806eaba080330ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743b384dda567460848755847f8c2b4c') in 0.035054 seconds
+  Import took 0.037738 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Materials/Study04/hologram 3.mat
-  artifactKey: Guid(bb787d06f60e41646be45349c85924a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/hologram 3.mat using Guid(bb787d06f60e41646be45349c85924a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42cfe46b39bb974aa813b4a006006ff5') in 0.017406 seconds
-  Import took 0.020767 seconds .
+  Time since last request: 0.000342 seconds.
+  path: Assets/Materials/Study03/Study03 2.mat
+  artifactKey: Guid(548ea99b2e4d131429b7310b90156eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study03/Study03 2.mat using Guid(548ea99b2e4d131429b7310b90156eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fac0551a4f89c59d72f7eaa0eb77e4c') in 0.026176 seconds
+  Import took 0.028831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Materials/Study04/Study04 Fresnel 1.mat
-  artifactKey: Guid(d8b8f0843b7d8ad4ba088ec5e1e9d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 Fresnel 1.mat using Guid(d8b8f0843b7d8ad4ba088ec5e1e9d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2c999ab64b3a07d842e05c4551fc2b') in 0.024980 seconds
-  Import took 0.027255 seconds .
+  Time since last request: 0.000224 seconds.
+  path: Assets/Materials/Study03/Study03_normal.mat
+  artifactKey: Guid(4f803cda0f248aa40aec4ea13fd69008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study03/Study03_normal.mat using Guid(4f803cda0f248aa40aec4ea13fd69008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec9607126c93825cb805d566085f8e6') in 0.029306 seconds
+  Import took 0.031403 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000401 seconds.
-  path: Assets/Materials/Study04/Study04 3.mat
-  artifactKey: Guid(3fe6d385e7c6d87408ef21b5a282313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/Study04 3.mat using Guid(3fe6d385e7c6d87408ef21b5a282313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7d1cb9009f9e30870b9539008c692a') in 0.095248 seconds
-  Import took 0.097812 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/Materials/Study03/Study03 3.mat
+  artifactKey: Guid(8d1cfbb597ea1e7498c962927e9ca7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study03/Study03 3.mat using Guid(8d1cfbb597ea1e7498c962927e9ca7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c42a92ccbd90bceff3f29a5811f3b7') in 0.036033 seconds
+  Import took 0.038227 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.375413 seconds.
-  path: Assets/Resources/Yurowm/Textures/SportyGrilSkin.png
-  artifactKey: Guid(711ac38f4ab44ac428a97c80c45d0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Yurowm/Textures/SportyGrilSkin.png using Guid(711ac38f4ab44ac428a97c80c45d0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c0a7cb4f6033f3fdf82173245acb4c') in 0.088847 seconds
-  Import took 0.091497 seconds .
+  Time since last request: 0.000427 seconds.
+  path: Assets/Materials/Study03/Study03 4.mat
+  artifactKey: Guid(54c9b3e5fc194944f8d71d9859bca2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Study03/Study03 4.mat using Guid(54c9b3e5fc194944f8d71d9859bca2b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff13f878e4a1d52fafc444eb38de91e8') in 0.026062 seconds
+  Import took 0.028071 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Resources/Yurowm/Textures/SportyGrilSkin_normal.png
-  artifactKey: Guid(cbeeede66d66c164ba0131475b22979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Yurowm/Textures/SportyGrilSkin_normal.png using Guid(cbeeede66d66c164ba0131475b22979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8600243bb17177afad1979985d809364') in 0.011503 seconds
-  Import took 0.014072 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Resources/Yurowm/Textures/SportyGrilSkin.png
-  artifactKey: Guid(711ac38f4ab44ac428a97c80c45d0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Yurowm/Textures/SportyGrilSkin.png using Guid(711ac38f4ab44ac428a97c80c45d0ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c0a7cb4f6033f3fdf82173245acb4c') in 0.010898 seconds
-  Import took 0.013443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.277711 seconds.
-  path: Assets/Resources/New Terrain.asset
-  artifactKey: Guid(c7f2845d6c97ce944a11fab809c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Terrain.asset using Guid(c7f2845d6c97ce944a11fab809c8b5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff04b13bd02530b243acfa89bc14206') in 0.029749 seconds
-  Import took 0.032993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Resources/Skybox/Cubemaps/sunset.hdr
-  artifactKey: Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Skybox/Cubemaps/sunset.hdr using Guid(656a59a5ff93c46498416d97e5c16b66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f53c036f24ade68b546d642c3180b4') in 0.157335 seconds
-  Import took 0.162813 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Resources/t_en_grass_alpha.psd
-  artifactKey: Guid(e1b3755ee8e3f3b47a0d8df32dc2b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/t_en_grass_alpha.psd using Guid(e1b3755ee8e3f3b47a0d8df32dc2b13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d7a1bff369375ccbe1ed9b07ae86c2') in 0.021462 seconds
-  Import took 0.023720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/Resources/t_en_grass_alpha.jpg
-  artifactKey: Guid(693c2889220e35b4e9dfd5e940a54ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/t_en_grass_alpha.jpg using Guid(693c2889220e35b4e9dfd5e940a54ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ceca32ce13327dc5afb66ab2eac1b8c') in 0.027167 seconds
-  Import took 0.029327 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Resources/t_en_grass_alpha_.png
-  artifactKey: Guid(3672922f5eefc494497a8bb33924e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/t_en_grass_alpha_.png using Guid(3672922f5eefc494497a8bb33924e961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370ec28b8c088cd82abd8fbdc62e9a72') in 0.012360 seconds
-  Import took 0.015084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000367 seconds.
-  path: Assets/Resources/t_en_grass_alpha__.png
-  artifactKey: Guid(05031632bdcc6c94bac9a467752be0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/t_en_grass_alpha__.png using Guid(05031632bdcc6c94bac9a467752be0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54d0a082d76cdf26dca91cd0c927967') in 0.011997 seconds
-  Import took 0.014702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.781641 seconds.
-  path: Assets/Scripts/Study04/HalfLambert.shader
-  artifactKey: Guid(2c84be0c992633648b87b6e6346fb0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/HalfLambert.shader using Guid(2c84be0c992633648b87b6e6346fb0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44c163068764a0e8a307e2875caf221d') in 0.004746 seconds
-  Import took 0.007162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.376771 seconds.
-  path: Assets/Scripts/Study03/Study03_normalOC.shader
-  artifactKey: Guid(c7dc24fdc5a108a41a6c4991f2ce2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study03/Study03_normalOC.shader using Guid(c7dc24fdc5a108a41a6c4991f2ce2b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49936bdef27211c8cf9c91d8648695db') in 0.004429 seconds
-  Import took 0.006896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.674661 seconds.
-  path: Assets/Scripts/Study03/Study03 4.shader
-  artifactKey: Guid(45f3fbb6e6e8f3e408f6805e6702fd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study03/Study03 4.shader using Guid(45f3fbb6e6e8f3e408f6805e6702fd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d1ef2f1b8742e79e387a622109777a4') in 0.004700 seconds
-  Import took 0.007295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 149.003347 seconds.
+  Time since last request: 548.992328 seconds.
   path: Assets/Scripts/Study04/Hologram 6.shader
   artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dad80106fa5a6c4a703d8c93fdb0951') in 0.006167 seconds
-  Import took 0.008673 seconds .
+Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dd7d02aee39a5cdbafa6adfc106e82') in 0.004679 seconds
+  Import took 0.007109 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.529484 seconds.
+  Time since last request: 19.679173 seconds.
   path: Assets/Scripts/Study04/Hologram 6.shader
   artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd5220e6324c15472932f533ae3cdbc3') in 0.007039 seconds
-  Import took 0.010170 seconds .
+Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9763e05df653aded54ac3c542591fb5e') in 0.004802 seconds
+  Import took 0.007967 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 134.702221 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f167552b8d3c4e58cf58a5920f1406') in 0.008001 seconds
-  Import took 0.011707 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.313937 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bedacb2afb517570a617f5e128aa94') in 0.007352 seconds
-  Import took 0.010296 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.938999 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4709949f56794debfe048991409522e') in 0.005397 seconds
-  Import took 0.009141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.110472 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e2d0d1d064d032831c36ab7c253b60') in 0.005405 seconds
-  Import took 0.008671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 432.106650 seconds.
-  path: Assets/Materials/Study04
-  artifactKey: Guid(18d65bb0c6c55c8448802bcb6272ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04 using Guid(18d65bb0c6c55c8448802bcb6272ef31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b578a74fd8b963d774959c1ee4553a') in 0.004995 seconds
-  Import took 0.007644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.946221 seconds.
-  path: Assets/Resources/4_1.tga
-  artifactKey: Guid(a9f1428a3b8afe743839f42cfd140470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/4_1.tga using Guid(a9f1428a3b8afe743839f42cfd140470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b357ac50336131add45bf7e684e71c2') in 0.019302 seconds
-  Import took 0.022206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000369 seconds.
-  path: Assets/Resources/watersky.mat
-  artifactKey: Guid(e288dba92d04f614fbe8d142000914ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/watersky.mat using Guid(e288dba92d04f614fbe8d142000914ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d85d3bd70cd5dcd3afb26fb88e345a') in 0.043090 seconds
-  Import took 0.047855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000430 seconds.
-  path: Assets/Resources/fireTest.tga
-  artifactKey: Guid(f60fbe86a8b471744843604e28487cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/fireTest.tga using Guid(f60fbe86a8b471744843604e28487cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4274b88e1c8cf918b71a04652b05c90e') in 0.011473 seconds
-  Import took 0.014230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Resources/BumpMapColourMapStoneWallExampleOC.png
-  artifactKey: Guid(b6d257d43782ade4b8eaf80b122bd027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/BumpMapColourMapStoneWallExampleOC.png using Guid(b6d257d43782ade4b8eaf80b122bd027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efe929df85ee722cdcbef54975062cc7') in 0.011189 seconds
-  Import took 0.013986 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/Resources/4_2.tga
-  artifactKey: Guid(4f95389799ca6784ebb8e4adbeae3f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/4_2.tga using Guid(4f95389799ca6784ebb8e4adbeae3f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffb3db680a5fccd5446e0f19b3c25029') in 0.020974 seconds
-  Import took 0.023682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Resources/BumpMapColourMapStoneWallExample.jpg
-  artifactKey: Guid(341c786c5be8ed949ac9c6588631a5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/BumpMapColourMapStoneWallExample.jpg using Guid(341c786c5be8ed949ac9c6588631a5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daea55d41b0c7a2367b568c7127475cf') in 0.010698 seconds
-  Import took 0.013149 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Resources/New Mesh.mat
-  artifactKey: Guid(3cf9c5c9ca6bd094a9eb35807ed3be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/New Mesh.mat using Guid(3cf9c5c9ca6bd094a9eb35807ed3be5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f429f6d329e60255a1cc9234657733') in 0.031196 seconds
-  Import took 0.033914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Resources/VertexColor.FBX
-  artifactKey: Guid(4c1b79d8676d45c4e9d3bb1f3918bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/VertexColor.FBX using Guid(4c1b79d8676d45c4e9d3bb1f3918bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '763e0b5313bb1c0ec9a178a837fd4e24') in 0.048459 seconds
-  Import took 0.050837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Resources/BumpMapColourMapStoneWallExample (1).jpg
-  artifactKey: Guid(85313a2ba5ba8384986863eb6977db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/BumpMapColourMapStoneWallExample (1).jpg using Guid(85313a2ba5ba8384986863eb6977db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccd4d84ab815a42a9e8f3be803372b0') in 0.010258 seconds
-  Import took 0.012751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Resources/noise2.png
-  artifactKey: Guid(ba7fb8d77acf2344fbc2330dbed4cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/noise2.png using Guid(ba7fb8d77acf2344fbc2330dbed4cd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4200460927f9f8222e6a27769487f1ce') in 0.010841 seconds
-  Import took 0.013119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Resources/BumpMapColourMapStoneWallExample (1).jpg
-  artifactKey: Guid(85313a2ba5ba8384986863eb6977db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/BumpMapColourMapStoneWallExample (1).jpg using Guid(85313a2ba5ba8384986863eb6977db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eccd4d84ab815a42a9e8f3be803372b0') in 0.011316 seconds
-  Import took 0.013846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Resources/dot.tga
-  artifactKey: Guid(5b941e6b2736c7b47ba63387f93a07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/dot.tga using Guid(5b941e6b2736c7b47ba63387f93a07b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed87afb1f3e87b788ce503b7e755eed2') in 0.010842 seconds
-  Import took 0.013056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/Resources/Custom_Water.mat
-  artifactKey: Guid(ab92e9c0e68c9374d8156a68b56e57e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Custom_Water.mat using Guid(ab92e9c0e68c9374d8156a68b56e57e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb9d7a92707a41549ddb740b3da3cb0') in 0.055181 seconds
-  Import took 0.060254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Resources/P6_check.jpg
-  artifactKey: Guid(9ab2d9442e2de8640910d29f7a3972ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/P6_check.jpg using Guid(9ab2d9442e2de8640910d29f7a3972ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d75988398375859c3f1c18caedbb470') in 0.010207 seconds
-  Import took 0.012811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Resources/water-pool-texture-seamless-and-free-thumb36.jpg
-  artifactKey: Guid(f26997f660692194fa653697c72a73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/water-pool-texture-seamless-and-free-thumb36.jpg using Guid(f26997f660692194fa653697c72a73ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e261c2a687274248969720e6dd29b011') in 0.016657 seconds
-  Import took 0.019759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.396223 seconds.
-  path: Assets/Resources/_TerrainAutoUpgrade/layer_Grass (Hill)2023054508611406.terrainlayer
-  artifactKey: Guid(420c2bc32123f384497c97a4737b9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/_TerrainAutoUpgrade/layer_Grass (Hill)2023054508611406.terrainlayer using Guid(420c2bc32123f384497c97a4737b9d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2006e9cbdce1ad8771128fe10dceb58d') in 0.026953 seconds
-  Import took 0.029783 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Resources/_TerrainAutoUpgrade/layer_MudRockyAlbedoSpecularcd2d2d038030d602.terrainlayer
-  artifactKey: Guid(ed3b9952e8fce04409383dcd7859b184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/_TerrainAutoUpgrade/layer_MudRockyAlbedoSpecularcd2d2d038030d602.terrainlayer using Guid(ed3b9952e8fce04409383dcd7859b184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebd9b1202244d448c16a936c896e627') in 0.012259 seconds
-  Import took 0.014384 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.397793 seconds.
-  path: Assets/Resources/black-gray-and-white-noise-texture-on-tv-screen-pixel-chaos-grain-pattern-of-bad-digital-signal-mosaic-monochrome-design-of-error-in-broken-retro-analog-monitor-background_575670-739.avif
-  artifactKey: Guid(707a27f289edf9c4587ba81175e1fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/black-gray-and-white-noise-texture-on-tv-screen-pixel-chaos-grain-pattern-of-bad-digital-signal-mosaic-monochrome-design-of-error-in-broken-retro-analog-monitor-background_575670-739.avif using Guid(707a27f289edf9c4587ba81175e1fb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02f7d09b8ae73fcf29071ee3d8163f50') in 0.017865 seconds
-  Import took 0.020904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.223996 seconds.
-  path: Assets/Resources/20230211_224402.png
-  artifactKey: Guid(e974d58ec47133f4bbf9f86c4fa59bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20230211_224402.png using Guid(e974d58ec47133f4bbf9f86c4fa59bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce7c1eafc057d8d9321bbe42c7090ce') in 0.013385 seconds
-  Import took 0.016076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.077474 seconds.
-  path: Assets/Resources/20230211_224402.png
-  artifactKey: Guid(e974d58ec47133f4bbf9f86c4fa59bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/20230211_224402.png using Guid(e974d58ec47133f4bbf9f86c4fa59bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3fef1435e2e8397b7c374ebdac79f8') in 0.010782 seconds
-  Import took 0.013599 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.127988 seconds.
-  path: Assets/Resources/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
-  artifactKey: Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp using Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1239ab112aa81995d4c4500a4aecff96') in 0.022433 seconds
-  Import took 0.025207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Resources/waterfinal/ReflectionProbe-0.exr
-  artifactKey: Guid(aa01cd27ea2176640ab1e977727ab37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/waterfinal/ReflectionProbe-0.exr using Guid(aa01cd27ea2176640ab1e977727ab37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3754df98cd5570f233072e21c57dcbc9') in 0.022020 seconds
-  Import took 0.025048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Resources/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp
-  artifactKey: Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Standard Assets/Environment/TerrainAssets/SurfaceTextures/MudRockyAlbedoSpecular.bmp using Guid(ef5c51cfa2ce46043a41a376b560c525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1239ab112aa81995d4c4500a4aecff96') in 0.011815 seconds
-  Import took 0.014099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Resources/waterfinal/ReflectionProbe-0.exr
-  artifactKey: Guid(aa01cd27ea2176640ab1e977727ab37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/waterfinal/ReflectionProbe-0.exr using Guid(aa01cd27ea2176640ab1e977727ab37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3754df98cd5570f233072e21c57dcbc9') in 0.013065 seconds
-  Import took 0.015136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 243.071401 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f1cb0c5d7af03453698df3ef0cddf7') in 0.005782 seconds
-  Import took 0.008466 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.082810 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0de1b7fea2a57fb5c382973e8d843b01') in 0.006117 seconds
-  Import took 0.008637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 145.309383 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c176d6255be07a20db357cf7f0191df') in 0.006388 seconds
-  Import took 0.009262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.026989 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6819715737037c5212fd6ecfcc216a64') in 0.005563 seconds
-  Import took 0.009136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 625.335907 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddda58b131c26fff33533f43285a2f8b') in 0.005451 seconds
-  Import took 0.008221 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.407560 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72eabd02783252fb555cf8ce2fbe4f2d') in 0.004758 seconds
-  Import took 0.008419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.732739 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58c498b33d5bdfae3fedd1ad97f5bc') in 0.004844 seconds
-  Import took 0.007908 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 191.147493 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd916306a1ff940ccbccf51db3305c97') in 0.005844 seconds
-  Import took 0.008427 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.338933 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e086448eb3dc6b081e638928cce8f801') in 0.007029 seconds
-  Import took 0.011033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.131264 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3dc1fca2395cf9950d17965224755e') in 0.005516 seconds
-  Import took 0.008488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 154.540615 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c9c4c06d88b72112bb2f15fa5c5dc0') in 0.005310 seconds
-  Import took 0.008093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.812128 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce258d322f5cb64871373f99d2dca1a5') in 0.006162 seconds
-  Import took 0.009316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.579851 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e972b55dfefbb5c81bcee946bd83497') in 0.005806 seconds
-  Import took 0.008527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.107119 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57974907633f3163134a1f606daedea4') in 0.006584 seconds
-  Import took 0.009742 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.574647 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34650dbe4c8bcf556a736c3a1806598f') in 0.006150 seconds
-  Import took 0.009356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 327.365700 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ad645afb3c11b9a391349912ef68faa') in 0.005413 seconds
-  Import took 0.008942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.206236 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87c3f3352fd1ad05686315e44ee88809') in 0.005932 seconds
-  Import took 0.009350 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 54.115234 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe36cb02dff65d48e3dda2bee94c431c') in 0.004902 seconds
-  Import took 0.007772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.865183 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6c22e4ed0bf41dc9e4f3dac5699d4a') in 0.005542 seconds
-  Import took 0.008399 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 239.214092 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa859fa92bafdbdb9badc215984552bb') in 0.006151 seconds
-  Import took 0.009224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.693346 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c41dede066f7dcbbb9e74692a93a451') in 0.005676 seconds
-  Import took 0.008859 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 493.729082 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e49903e3026a54369bc7c12e3d46598') in 0.005734 seconds
-  Import took 0.008710 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.355305 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85cc55d835e01591e9051afc225a5004') in 0.010223 seconds
-  Import took 0.013659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.469720 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b9a0e8b6b45ac5aabfb25587b47dbd') in 0.006091 seconds
-  Import took 0.008947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.182001 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf0c16f0a57be87aa8c48cc0ec5b70c') in 0.005949 seconds
-  Import took 0.009273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.070681 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '017e2c699c544f5a9b42c3e8d251befe') in 0.005994 seconds
-  Import took 0.008915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.666308 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d72b77b470b0841d0f711d5ae2877b') in 0.006280 seconds
-  Import took 0.010159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 197.308658 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fbceb804cdb33724d394ccf51db16df') in 0.004725 seconds
-  Import took 0.007955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.273780 seconds.
-  path: Assets/Scripts/Study04/Hologram 6.shader
-  artifactKey: Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Study04/Hologram 6.shader using Guid(04e106ea0df068042bd3564b89a812da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f66a2ff127c673ba71abee576fd80d') in 0.006780 seconds
-  Import took 0.010892 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.946125 seconds.
+  Time since last request: 16.393790 seconds.
   path: Assets/Materials/Study04/hologram 6.mat
   artifactKey: Guid(62a4cbc60264de34cb3c8418b62fa1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Study04/hologram 6.mat using Guid(62a4cbc60264de34cb3c8418b62fa1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4afe36de7aba41ea55e5cf1355a01d1') in 0.025327 seconds
-  Import took 0.028380 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.505998 seconds.
-  path: Assets/Resources
-  artifactKey: Guid(f432c496a8dd14743beb7cf6bed3b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources using Guid(f432c496a8dd14743beb7cf6bed3b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a19fb3933d77fe977b9778883d01bc') in 0.004626 seconds
-  Import took 0.007585 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001352 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.897 seconds
-Platform modules already initialized, skipping
-Shader 'Custom/Water': fallback shader 'Legacy Shaders/Transparent/Vertexlit' not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1124 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.2 MB.
-System memory in use after: 89.1 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1680.
-Total: 2.116000 ms (FindLiveObjects: 0.241700 ms CreateObjectMapping: 0.036000 ms MarkObjects: 1.644600 ms  DeleteObjects: 0.192000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.133313 seconds.
-  path: Assets/Resources/skybox.mat
-  artifactKey: Guid(21b929dfa0750c146bf690eb29655281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/skybox.mat using Guid(21b929dfa0750c146bf690eb29655281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917add455bc5fe8be7f0b7a326912108') in 0.076454 seconds
-  Import took 0.079029 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.016403 seconds.
-  path: Assets/Resources/skybox.mat
-  artifactKey: Guid(21b929dfa0750c146bf690eb29655281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/skybox.mat using Guid(21b929dfa0750c146bf690eb29655281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917add455bc5fe8be7f0b7a326912108') in 0.012019 seconds
-  Import took 0.014559 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001723 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.750 seconds
-Platform modules already initialized, skipping
-Shader 'Custom/Water': fallback shader 'Legacy Shaders/Transparent/Vertexlit' not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1123 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.1 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1683.
-Total: 3.077300 ms (FindLiveObjects: 0.410300 ms CreateObjectMapping: 0.034400 ms MarkObjects: 2.287200 ms  DeleteObjects: 0.343100 ms)
+Start importing Assets/Materials/Study04/hologram 6.mat using Guid(62a4cbc60264de34cb3c8418b62fa1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7386b49f9c06bb101db7a06e1b18dc34') in 0.012769 seconds
+  Import took 0.015409 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
