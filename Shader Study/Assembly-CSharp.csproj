@@ -40,6 +40,7 @@
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\Actions.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+     <Compile Include="Assets\Scripts\Personal Study\CameraShake\CameraShake.cs" />
      <None Include="Assets\Scripts\Study02\Study_Fire 1.shader" />
      <None Include="Assets\Scripts\Study04\RimLight.shader" />
      <None Include="Assets\Scripts\Study03\Study03 3.shader" />
