@@ -38,9 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\CharacterPanel.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Personal Study\CameraShake\CameraShake.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\Actions.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\CharacterViewer.cs" />
-     <Compile Include="Assets\Scripts\Personal Study\CameraShake\CameraShake.cs" />
      <None Include="Assets\Scripts\Study02\Study_Fire 1.shader" />
      <None Include="Assets\Scripts\Study04\RimLight.shader" />
      <None Include="Assets\Scripts\Study03\Study03 3.shader" />
@@ -58,7 +58,9 @@
      <None Include="Assets\Scripts\Study05\BlinnPhong\Gloss1.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Blinn_Phong 3.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Outline3.shader" />
+     <None Include="Assets\Scripts\Study05\NPR\Toon_Face.shader" />
      <None Include="Assets\TOZ\_Common\Shaders\Debug\VertexColors.shader" />
+     <None Include="Assets\Scripts\Personal Study\Water\Water_test.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 6.shader" />
      <None Include="Assets\Scripts\Study04\CustomLight03.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Outline1.shader" />
@@ -96,6 +98,7 @@
      <None Include="Assets\Scripts\Study04\Fresnel 01.shader" />
      <None Include="Assets\Scripts\Study04\Fresnel 02.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 1.shader" />
+     <None Include="Assets\Scripts\Study05\NPR\ToonFresnel.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

@@ -7,7 +7,9 @@ Shader "Custom/Water"
         _BumpMap ("Water Bump", 2D) = "bump" {}
         _BumpMap2 ("Water Bump2", 2D) = "bump" {}
         _SpacPow ("Specular",float)=2
-
+        _WaveSpeed("Wave Speed", float) = 0.05
+        _WavePower("Wave Power", float) = 0.2
+        _WaveTilling("Wave Tilling", float) = 25
     }
     CGINCLUDE
         #define _GLOSSYENV 1
@@ -30,6 +32,9 @@ Shader "Custom/Water"
         sampler2D _BumpMap,_BumpMap2;
         sampler2D _MainTex,_GrabTexture;
         samplerCUBE _CubeMap;
+        float _WaveSpeed;
+        float _WavePower;
+        float _WaveTilling;
         float _SpacPow;
         float dotData;
 
@@ -46,7 +51,7 @@ Shader "Custom/Water"
 
         void vert(inout appdata_full v)
         {
-            v.vertex.y+=sin((abs(v.texcoord.x*2-1)*3)+sin(_Time.y*1))*0.1;//abs함수로 감싸면 -1~0~1이 1~0~1으로 바뀌면서 지그재그 됨.
+            v.vertex.y+=sin((abs(v.texcoord.x*2-1)*_WaveTilling)+sin(_Time.y*1))*_WavePower;//abs함수로 감싸면 -1~0~1이 1~0~1으로 바뀌면서 지그재그 됨.
 
         }
         
@@ -62,8 +67,8 @@ Shader "Custom/Water"
         void surf (Input IN, inout SurfaceOutput o)
         {
             //Normal
-            float3 fNormal1=UnpackNormal(tex2D(_BumpMap,IN.uv_BumpMap+float2(_Time.y*0.07,0.0f)));
-            float3 fNormal2=UnpackNormal(tex2D(_BumpMap,IN.uv_BumpMap-float2(_Time.y*0.05,0.0f)));
+            float3 fNormal1=UnpackNormal(tex2D(_BumpMap,IN.uv_BumpMap+float2(_Time.y*_WaveSpeed,0.0f)));
+            float3 fNormal2=UnpackNormal(tex2D(_BumpMap,IN.uv_BumpMap-float2(_Time.y*_WaveSpeed,0.0f)));
             o.Normal=(fNormal1+fNormal2)/2;
 
             //reflection
