@@ -43,8 +43,10 @@
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\CharacterViewer.cs" />
      <None Include="Assets\Scripts\Study02\Study_Fire 1.shader" />
      <None Include="Assets\Scripts\Study04\RimLight.shader" />
+     <None Include="Assets\Scripts\Study06\AlphaBlend1.shader" />
      <None Include="Assets\Scripts\Study03\Study03 3.shader" />
      <None Include="Assets\Scripts\study01\Study01_Mix.shader" />
+     <None Include="Assets\Scripts\Study06\AlphaTesting1.shader" />
      <None Include="Assets\Scripts\Study03\Study03 1.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 4.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Blinn_Phong 1.shader" />
@@ -56,9 +58,12 @@
      <None Include="Assets\Scripts\Study03\Study03_normal.shader" />
      <None Include="Assets\Scripts\Study03\Study03 2.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Gloss1.shader" />
+     <None Include="Assets\Scripts\Study06\VFX\Study_Fire 2.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Blinn_Phong 3.shader" />
+     <None Include="Assets\Scripts\Study06\NormalTest3.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Outline3.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Toon_Face.shader" />
+     <None Include="Assets\Scripts\Study06\VFX\CustomBlending.shader" />
      <None Include="Assets\TOZ\_Common\Shaders\Debug\VertexColors.shader" />
      <None Include="Assets\Scripts\Personal Study\Water\Water_test.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 6.shader" />
@@ -74,17 +79,24 @@
      <None Include="Assets\Scripts\Study05\NPR\Outline2.shader" />
      <None Include="Assets\Scripts\Personal Study\Water\Water 1.shader" />
      <None Include="Assets\Scripts\Study04\CustomLight02.shader" />
+     <None Include="Assets\Scripts\Study06\AlphaBlend2.shader" />
      <None Include="Assets\Scripts\Study03\Study03.shader" />
      <None Include="Assets\Scripts\Study02\Study_uv 2.shader" />
      <None Include="Assets\Scripts\Study04\RimLight 1.shader" />
      <None Include="Assets\Scripts\Study03\Study03_normalOC.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Blinn_Phong 2.shader" />
      <None Include="Assets\Scripts\Study02\Study02 1.shader" />
+     <None Include="Assets\Scripts\Study06\Cubemap02.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 3.shader" />
+     <None Include="Assets\Scripts\Study06\NormalTest1.shader" />
+     <None Include="Assets\Scripts\Study06\VFX\CustomVFX.shader" />
+     <None Include="Assets\Scripts\Study06\AlphaBlendShadow.shader" />
      <None Include="Assets\Scripts\Study02\Study_Fire.shader" />
      <None Include="Assets\Scripts\Study04\Fresnel 03.shader" />
+     <None Include="Assets\Scripts\Study06\Cubemap01.shader" />
      <None Include="Assets\Scripts\Study03\Study03 5.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Fresnel_outline.shader" />
+     <None Include="Assets\Scripts\Study06\Zbuffer.shader" />
      <None Include="Assets\Scripts\Study02\Study_uv3.shader" />
      <None Include="Assets\TOZ\_Common\Shaders\Object\Splat\VertexColors\Standard.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 2.shader" />
@@ -99,6 +111,8 @@
      <None Include="Assets\Scripts\Study04\Fresnel 02.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 1.shader" />
      <None Include="Assets\Scripts\Study05\NPR\ToonFresnel.shader" />
+     <None Include="Assets\Scripts\Study06\AlphaBlendTest.shader" />
+     <None Include="Assets\Scripts\Study06\NormalTest2.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
