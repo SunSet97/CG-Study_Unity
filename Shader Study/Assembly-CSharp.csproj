@@ -36,11 +36,17 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Analyzer Include="C:\Users\justb\OneDrive\문서\GitHub\CG-Study_Unity\Shader Study\Assets\Resources\JMO Assets\Editor\JMOAssets_MatCapWelcome.dll" />
+  </ItemGroup>
+  <ItemGroup>
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\CharacterPanel.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\PlayerController.cs" />
      <Compile Include="Assets\Scripts\Personal Study\CameraShake\CameraShake.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\Actions.cs" />
      <Compile Include="Assets\Resources\Yurowm\Demo\Scripts\CharacterViewer.cs" />
+     <Compile Include="Assets\Resources\JMO Assets\MatCap Shaders\Demo\Assets\MC_AutoRotate.cs" />
+     <Compile Include="Assets\Resources\JMO Assets\MatCap Shaders\Creator\Assets\MC_CreateMatCap.cs" />
+     <Compile Include="Assets\Resources\JMO Assets\MatCap Shaders\Demo\Assets\MC_SwitchTexture.cs" />
      <None Include="Assets\Scripts\Study02\Study_Fire 1.shader" />
      <None Include="Assets\Scripts\Study04\RimLight.shader" />
      <None Include="Assets\Scripts\Study06\AlphaBlend1.shader" />
@@ -50,12 +56,16 @@
      <None Include="Assets\Scripts\Study03\Study03 1.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 4.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Blinn_Phong 1.shader" />
+     <None Include="Assets\Scripts\Study07\Refraction.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Gloss_Rim.shader" />
      <None Include="Assets\Scripts\Study02\Study_uv 1.shader" />
+     <None Include="Assets\Scripts\Study07\Matcap.shader" />
      <None Include="Assets\Resources\Yurowm\Shaders\SkinShader.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 5.shader" />
      <None Include="Assets\Scripts\Study04\CustomLight01.shader" />
      <None Include="Assets\Scripts\Study03\Study03_normal.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Textures\MaCrea\MaCrea.txt" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Additive.shader" />
      <None Include="Assets\Scripts\Study03\Study03 2.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Gloss1.shader" />
      <None Include="Assets\Scripts\Study06\VFX\Study_Fire 2.shader" />
@@ -66,6 +76,7 @@
      <None Include="Assets\Scripts\Study06\VFX\CustomBlending.shader" />
      <None Include="Assets\TOZ\_Common\Shaders\Debug\VertexColors.shader" />
      <None Include="Assets\Scripts\Personal Study\Water\Water_test.shader" />
+     <None Include="Assets\Scripts\Study07\Triplanar.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 6.shader" />
      <None Include="Assets\Scripts\Study04\CustomLight03.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Outline1.shader" />
@@ -74,45 +85,63 @@
      <None Include="Assets\Scripts\Study02\Study_uv 3.shader" />
      <None Include="Assets\Scripts\Study03\Study03 4.shader" />
      <None Include="Assets\Scripts\Study02\Study02.shader" />
+     <None Include="Assets\Scripts\Study07\Blink.shader" />
      <None Include="Assets\Scripts\study01\study01.shader" />
      <None Include="Assets\Scripts\Study04\CustomLight05.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Outline2.shader" />
      <None Include="Assets\Scripts\Personal Study\Water\Water 1.shader" />
      <None Include="Assets\Scripts\Study04\CustomLight02.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_AdditiveZ.shader" />
      <None Include="Assets\Scripts\Study06\AlphaBlend2.shader" />
      <None Include="Assets\Scripts\Study03\Study03.shader" />
      <None Include="Assets\Scripts\Study02\Study_uv 2.shader" />
      <None Include="Assets\Scripts\Study04\RimLight 1.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Textures\BenSimonds\_Textures Readme.txt" />
      <None Include="Assets\Scripts\Study03\Study03_normalOC.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Blinn_Phong 2.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain_Bumped.shader" />
      <None Include="Assets\Scripts\Study02\Study02 1.shader" />
      <None Include="Assets\Scripts\Study06\Cubemap02.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 3.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_Lit.shader" />
      <None Include="Assets\Scripts\Study06\NormalTest1.shader" />
+     <None Include="Assets\Scripts\Study07\Triplanar_Utilization.shader" />
      <None Include="Assets\Scripts\Study06\VFX\CustomVFX.shader" />
      <None Include="Assets\Scripts\Study06\AlphaBlendShadow.shader" />
      <None Include="Assets\Scripts\Study02\Study_Fire.shader" />
      <None Include="Assets\Scripts\Study04\Fresnel 03.shader" />
      <None Include="Assets\Scripts\Study06\Cubemap01.shader" />
      <None Include="Assets\Scripts\Study03\Study03 5.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureMult_Bumped.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_Plain.shader" />
      <None Include="Assets\Scripts\Study05\NPR\Fresnel_outline.shader" />
+     <None Include="Assets\Scripts\Study07\Dissolve.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd.shader" />
      <None Include="Assets\Scripts\Study06\Zbuffer.shader" />
      <None Include="Assets\Scripts\Study02\Study_uv3.shader" />
      <None Include="Assets\TOZ\_Common\Shaders\Object\Splat\VertexColors\Standard.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 2.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Shaders\MatCap_TextureAdd_Bumped.shader" />
      <None Include="Assets\Scripts\study01\study01_tex.shader" />
      <None Include="Assets\Scripts\Study04\CustomLight04.shader" />
+     <None Include="Assets\Scripts\Study07\Alpha2Pass.shader" />
      <None Include="Assets\Scripts\Study04\HalfLambert.shader" />
      <None Include="Assets\Scripts\Study02\Study_uv.shader" />
+     <None Include="Assets\Scripts\Study07\Matcap2.shader" />
      <None Include="Assets\Scripts\Study04\Hologram.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\Blinn_Phong.shader" />
      <None Include="Assets\Scripts\Study05\BlinnPhong\FakeSpec.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\_MatCap Shaders Readme.txt" />
      <None Include="Assets\Scripts\Study04\Fresnel 01.shader" />
      <None Include="Assets\Scripts\Study04\Fresnel 02.shader" />
      <None Include="Assets\Scripts\Study04\Hologram 1.shader" />
      <None Include="Assets\Scripts\Study05\NPR\ToonFresnel.shader" />
+     <None Include="Assets\Scripts\Study07\leaves.shader" />
      <None Include="Assets\Scripts\Study06\AlphaBlendTest.shader" />
+     <None Include="Assets\Resources\JMO Assets\MatCap Shaders\Textures\Creator\_Creator.txt" />
      <None Include="Assets\Scripts\Study06\NormalTest2.shader" />
+     <None Include="Assets\Scripts\Study07\Dissolve_mixed.shader" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.9f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
